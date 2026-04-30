@@ -14,20 +14,10 @@ const Footer = () => {
     }}>
       <div className="container" style={{
         display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        gap: '2rem'
+        justifyContent: 'center'
       }}>
-        <div style={{ fontSize: '1.2rem', fontWeight: 700, fontFamily: 'Outfit' }}>
-          Portfolio
-        </div>
-        <div style={{ display: 'flex', gap: '2rem' }}>
-          <a href="#" style={{ color: 'var(--text-muted)' }}>GitHub</a>
-          <a href="#" style={{ color: 'var(--text-muted)' }}>Twitter</a>
-          <a href="#" style={{ color: 'var(--text-muted)' }}>LinkedIn</a>
-        </div>
         <div style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-          &copy; {new Date().getFullYear()} All Rights Reserved.
+          &copy; {new Date().getFullYear()} Portfolio. All Rights Reserved.
         </div>
       </div>
     </footer>

@@ -19,9 +19,9 @@ const ProjectGrid = () => {
         </div>
         
         <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))',
-          gap: '2.5rem'
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '4rem'
         }}>
           {projects.map(project => (
             <ProjectCard key={project.id} project={project} />
