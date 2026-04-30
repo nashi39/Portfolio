@@ -6,38 +6,38 @@
 export const projects = [
   {
     id: 1,
-    title: "AI Chat Assistant",
-    description: "自然言語処理を活用したインテリジェントなチャットアプリケーション。ユーザーの意図を汲み取った高度な対話が可能です。",
-    languages: ["JavaScript", "Node.js"],
-    frameworks: ["React", "Express"],
+    title: "Universe　war",
+    description: "2Dでのシューティングゲームになっています。コンセプトとしては同じステージを何度も挑み、機体を強化していくボス倒すというものです。制作時期は2年生の後半となっています。",
+    languages: ["C"],
+    tools: ["DXLib"],
     images: ["/assets/project1.png"],
     link: "https://github.com/nashi39/2DGame"
   },
   {
     id: 2,
-    title: "Task Management System",
-    description: "直感的な操作でタスクを管理できるGUIツール。ドラッグ＆ドロップによるステータス変更や期限通知機能を備えています。",
-    languages: ["Python", "SQLite"],
-    frameworks: ["PyQt6", "SQLAlchemy"],
+    title: "Math Card",
+    description: "カードゲーム形式で四則演算を勉強で学習アプリとなっています。こちらはグループ制作なので担当した箇所としましては、ゲーム本編のロジック以外のUI部分を担当しました。制作時期は3年生の中盤あたりになっています。",
+    languages: ["C++"],
+    tools: ["DXLib"],
     images: ["/assets/project2.png"],
     link: "https://github.com/nashi39/team-ProductionDX"
   },
   {
     id: 3,
-    title: "Finance Dashboard",
-    description: "個人の資産状況を可視化するダッシュボード。グラフによる推移分析や予算設定など、高度な分析機能を提供します。",
-    languages: ["TypeScript", "Rust"],
-    frameworks: ["Next.js", "Tauri"],
+    title: "Sosproject",
+    description: "こちらはアニメ涼宮ハルヒの憂鬱の作品詳細をWebサイトで公開しているサービスとなっています。（非公式のため公開などはしておりません）こちらのサイトはAntigravityを使って学習しながらバイブコーディングで制作しました。制作時期は3年制作の後半となっています。",
+    languages: ["JavaScript", "HTML", "CSS"],
+    tools: ["React"],
     images: ["/assets/project3.png"],
-    link: "https://github.com/example/project3"
+    link: "https://github.com/nashi39/sosproject-1"
   },
   {
     id: 4,
-    title: "Inventory Tracker",
-    description: "在庫管理を自動化するデスクトップアプリ。バーコードスキャン対応や在庫不足時のアラート機能を搭載しています。",
-    languages: ["C#", "SQL Server"],
-    frameworks: [".NET MAUI", "WPF"],
+    title: "Shift Master",
+    description: "シフト表を製作するアプリとなっています。構成としては管理者画面はPC、スタッフ画面はスマートフォンで操作することを想定して現在も製作途中となっています。なおこちらもAntigravityを使って学習しながらバイブコーディングで制作しております。",
+    languages: ["JavaScript", "HTML", "CSS"],
+    tools: ["React", "Firebase"],
     images: ["/assets/project41.png", "/assets/project42.png"],
-    link: "https://github.com/example/project4"
+    link: "https://github.com/nashi39/shift-master"
   }
 ];

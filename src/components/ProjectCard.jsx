@@ -50,10 +50,10 @@ const ProjectCard = ({ project }) => {
 
           <div>
             <div style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--text-main)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-              Frameworks
+              Tools
             </div>
-            {project.frameworks.map(fw => (
-              <span key={fw} className="tag" style={{ borderColor: 'var(--accent)', color: 'var(--accent)' }}>{fw}</span>
+            {project.tools.map(tool => (
+              <span key={tool} className="tag" style={{ borderColor: 'var(--accent)', color: 'var(--accent)' }}>{tool}</span>
             ))}
           </div>
         </div>
