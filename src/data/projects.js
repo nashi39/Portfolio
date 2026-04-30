@@ -10,7 +10,7 @@ export const projects = [
     description: "2Dでのシューティングゲームになっています。コンセプトとしては同じステージを何度も挑み、機体を強化していくボス倒すというものです。制作時期は2年生の後半となっています。",
     languages: ["C"],
     tools: ["DXLib"],
-    images: ["public/assets/project1.png"],
+    images: ["assets/project1.png"],
     link: "https://github.com/nashi39/2DGame"
   },
   {
@@ -19,7 +19,7 @@ export const projects = [
     description: "カードゲーム形式で四則演算を勉強で学習アプリとなっています。こちらはグループ制作なので担当した箇所としましては、ゲーム本編のロジック以外のUI部分を担当しました。制作時期は3年生の中盤あたりになっています。",
     languages: ["C++"],
     tools: ["DXLib"],
-    images: ["public/assets/project2.png"],
+    images: ["assets/project2.png"],
     link: "https://github.com/nashi39/team-ProductionDX"
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     description: "こちらはアニメ涼宮ハルヒの憂鬱の作品詳細をWebサイトで公開しているサービスとなっています。（非公式のため公開などはしておりません）こちらのサイトはAntigravityを使って学習しながらバイブコーディングで制作しました。制作時期は3年制作の後半となっています。",
     languages: ["JavaScript", "HTML", "CSS"],
     tools: ["React"],
-    images: ["public/assets/project3.png"],
+    images: ["assets/project3.png"],
     link: "https://github.com/nashi39/sosproject-1"
   },
   {
@@ -37,7 +37,7 @@ export const projects = [
     description: "シフト表を製作するアプリとなっています。構成としては管理者画面はPC、スタッフ画面はスマートフォンで操作することを想定して現在も製作途中となっています。なおこちらもAntigravityを使って学習しながらバイブコーディングで制作しております。",
     languages: ["JavaScript", "HTML", "CSS"],
     tools: ["React", "Firebase"],
-    images: ["public/assets/project41.png", "public/assets/project42.png"],
+    images: ["assets/project41.png", "assets/project42.png"],
     link: "https://github.com/nashi39/shift-master"
   }
 ];
