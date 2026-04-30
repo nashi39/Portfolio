@@ -8,18 +8,28 @@ import React from 'react';
 const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
-      <div className="project-card-image">
-        <img 
-          src={project.image} 
-          alt={project.title} 
-          style={{ 
-            width: '100%', 
-            height: '100%', 
-            objectFit: 'contain',
-            padding: '2rem', /* 少し余白を持たせるとより綺麗に見えます */
-            backgroundColor: 'var(--bg-subtle)' 
-          }}
-        />
+      <div className="project-card-image" style={{ 
+        display: 'flex', 
+        gap: '2rem', 
+        padding: '3rem', 
+        alignItems: 'center', 
+        justifyContent: 'center',
+        backgroundColor: 'var(--bg-subtle)'
+      }}>
+        {project.images.map((img, index) => (
+          <img 
+            key={index}
+            src={img} 
+            alt={`${project.title} ${index + 1}`} 
+            style={{ 
+              flex: project.images.length > 1 ? (index === 1 ? '1.8' : '1') : '1', 
+              width: '0', 
+              maxHeight: '100%',
+              objectFit: 'contain',
+              filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.1))' /* 少し影をつけて浮かせると質感が上がります */
+            }}
+          />
+        ))}
       </div>
       
       <div className="project-card-content">
