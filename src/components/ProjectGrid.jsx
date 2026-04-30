@@ -14,10 +14,10 @@ const ProjectGrid = () => {
         <div style={{ marginBottom: '4rem', textAlign: 'center' }}>
           <h2 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Selected Works</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto' }}>
-            これまでに開発してきた主要なプロジェクトのご紹介です。
+            これまでに開発してきた制作物のご紹介です。
           </p>
         </div>
-        
+
         <div style={{
           display: 'flex',
           flexDirection: 'column',
