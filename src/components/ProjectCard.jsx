@@ -12,7 +12,13 @@ const ProjectCard = ({ project }) => {
         <img 
           src={project.image} 
           alt={project.title} 
-          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          style={{ 
+            width: '100%', 
+            height: '100%', 
+            objectFit: 'contain',
+            padding: '2rem', /* 少し余白を持たせるとより綺麗に見えます */
+            backgroundColor: 'var(--bg-subtle)' 
+          }}
         />
       </div>
       

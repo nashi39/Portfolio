@@ -11,7 +11,7 @@ export const projects = [
     languages: ["JavaScript", "Node.js"],
     frameworks: ["React", "Express"],
     image: "/assets/project1.png",
-    link: "https://github.com/example/project1"
+    link: "https://github.com/nashi39/2DGame"
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const projects = [
     languages: ["Python", "SQLite"],
     frameworks: ["PyQt6", "SQLAlchemy"],
     image: "/assets/project2.png",
-    link: "https://github.com/example/project2"
+    link: "https://github.com/nashi39/team-ProductionDX"
   },
   {
     id: 3,
