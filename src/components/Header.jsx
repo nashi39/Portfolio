@@ -1,3 +1,8 @@
+/**
+ * Headerコンポーネント
+ * ページ上部に固定（sticky）表示されるナビゲーションバーです。
+ * ロゴと各セクションへのアンカーリンクを提供します。
+ */
 import React from 'react';
 
 const Header = () => {
@@ -18,11 +23,7 @@ const Header = () => {
       }}>
         <h1 style={{ fontSize: '1.5rem', margin: 0 }}>PORTFOLIO</h1>
         <nav>
-          <ul style={{ display: 'flex', gap: '2rem' }}>
-            <li><a href="#projects" style={{ fontWeight: 600 }}>Projects</a></li>
-            <li><a href="#about" style={{ fontWeight: 600 }}>About</a></li>
-            <li><a href="#contact" style={{ fontWeight: 600 }}>Contact</a></li>
-          </ul>
+          {/* シンプルな構成のためナビゲーションは非表示、または必要に応じてGitHubリンクなどを配置 */}
         </nav>
       </div>
     </header>

@@ -1,3 +1,8 @@
+/**
+ * ProjectGridコンポーネント
+ * 登録されているすべてのプロジェクトをグリッドレイアウトで一覧表示します。
+ * data/projects.js からデータを取得し、ProjectCardを動的に生成します。
+ */
 import React from 'react';
 import ProjectCard from './ProjectCard';
 import { projects } from '../data/projects';

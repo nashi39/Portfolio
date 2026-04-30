@@ -1,3 +1,8 @@
+/**
+ * Footerコンポーネント
+ * ページ最下部に表示されるセクションです。
+ * サイトのタイトル、SNSリンク、コピーライト情報を表示します。
+ */
 import React from 'react';
 
 const Footer = () => {

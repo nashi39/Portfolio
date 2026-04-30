@@ -1,3 +1,8 @@
+/**
+ * ProjectCardコンポーネント
+ * 個々のプロジェクト（成果物）の情報を表示するカード型コンポーネントです。
+ * 画像、タイトル、説明、使用技術タグ、リンクボタンを含みます。
+ */
 import React from 'react';
 
 const ProjectCard = ({ project }) => {
