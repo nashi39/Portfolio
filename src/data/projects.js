@@ -27,7 +27,7 @@ export const projects = [
     title: "Sosproject",
     description: "こちらはアニメ涼宮ハルヒの憂鬱の作品詳細をWebサイトで公開しているサービスとなっています。（非公式のため公開などはしておりません）こちらのサイトはAntigravityを使って学習しながらバイブコーディングで制作しました。制作時期は3年制作の後半となっています。",
     languages: ["JavaScript", "HTML", "CSS"],
-    tools: ["React"],
+    tools: ["React", "Vite"],
     images: ["assets/project3.png"],
     link: "https://github.com/nashi39/sosproject-1"
   },
@@ -36,7 +36,7 @@ export const projects = [
     title: "Shift Master",
     description: "シフト表を製作するアプリとなっています。構成としては管理者画面はPC、スタッフ画面はスマートフォンで操作することを想定して現在も製作途中となっています。なおこちらもAntigravityを使って学習しながらバイブコーディングで制作しております。",
     languages: ["JavaScript", "HTML", "CSS"],
-    tools: ["React", "Firebase"],
+    tools: ["React", "Vite", "Firebase"],
     images: ["assets/project41.png", "assets/project42.png"],
     link: "https://github.com/nashi39/shift-master"
   }
