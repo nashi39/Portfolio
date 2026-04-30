@@ -19,14 +19,14 @@ const ProjectCard = ({ project }) => {
         {project.images.map((img, index) => (
           <img 
             key={index}
-            src={img} 
+            src={`${import.meta.env.BASE_URL}${img}`} 
             alt={`${project.title} ${index + 1}`} 
             style={{ 
               flex: project.images.length > 1 ? (index === 1 ? '1.8' : '1') : '1', 
               width: '0', 
               maxHeight: '100%',
               objectFit: 'contain',
-              filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.1))' /* 少し影をつけて浮かせると質感が上がります */
+              filter: 'drop-shadow(0 10px 20px rgba(0,0,0,0.1))'
             }}
           />
         ))}
